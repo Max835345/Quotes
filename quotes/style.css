@@ -1,0 +1,46 @@
+body{
+    font-family: 'Dancing Script', cursive;
+    background: #000;
+}
+
+p,h3{
+    color: #fff;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.contriner{
+    width: 95%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quotes{
+    border: 1px solid white;
+    width: 900px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.quotes p, .quotes h3{
+    font-size: 30px;
+}
+
+.btn{
+    display: block;
+    border: 2px solid white;
+    padding: 13px 30px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
